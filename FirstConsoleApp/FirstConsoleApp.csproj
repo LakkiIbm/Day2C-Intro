@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FirstConsoleApp.LoopSwitch</StartupObject>
+    <StartupObject>FirstConsoleApp.Array1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array1.cs" />
     <Compile Include="LoopSwitch.cs" />
     <Compile Include="BasicC.cs" />
+    <Compile Include="passing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
