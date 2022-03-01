@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FirstConsoleApp
 {
-    internal class Program
+    internal class BasicC
     {
         static void Main(string[] args)
         {
@@ -31,6 +31,7 @@ namespace FirstConsoleApp
             {
                 Console.WriteLine("C = {0} is the greatest", c);
             }
+            Console.ReadLine();
 
 
             //Program to swap 2 nos without 3rd variable
@@ -43,6 +44,7 @@ namespace FirstConsoleApp
             b = a - b;
             a = a - b;
             Console.WriteLine("After Swapping: a = {0}, b = {1}", a, b);
+            Console.ReadLine();
 
 
             //Program to get emp details and display them
@@ -58,7 +60,7 @@ namespace FirstConsoleApp
             city = Console.ReadLine();
             Console.Write("Age: ");
             age = int.Parse(Console.ReadLine());
-            
+
             Console.WriteLine("Below are the details of {0}:", name);
             Console.WriteLine("Employee ID : " + empID);
             Console.WriteLine("Age : " + age);

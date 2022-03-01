@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LoopSwitch.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="BasicC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
