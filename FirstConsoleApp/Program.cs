@@ -11,38 +11,38 @@ namespace FirstConsoleApp
         static void Main(string[] args)
         {
             //Program to find greatest among 3 nos
-            //int a, b, c;
-            //Console.WriteLine("Enter 3 values:");
-            //a = int.Parse(Console.ReadLine());
-            //b = int.Parse(Console.ReadLine());
-            //c = int.Parse(Console.ReadLine());
-            //if (a > b)
-            //{
-            //    if (a > c)
-            //    {
-            //        Console.WriteLine("A = {0} is the greatest", a);
-            //    }
-            //}
-            //else if (b > c)
-            //{
-            //    Console.WriteLine("B = {0} is the greatest", b);
-            //}
-            //else
-            //{
-            //    Console.WriteLine("C = {0} is the greatest", c);
-            //}
+            int a, b, c;
+            Console.WriteLine("Enter 3 values:");
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
+            c = int.Parse(Console.ReadLine());
+            if (a > b)
+            {
+                if (a > c)
+                {
+                    Console.WriteLine("A = {0} is the greatest", a);
+                }
+            }
+            else if (b > c)
+            {
+                Console.WriteLine("B = {0} is the greatest", b);
+            }
+            else
+            {
+                Console.WriteLine("C = {0} is the greatest", c);
+            }
 
 
             //Program to swap 2 nos without 3rd variable
-            //int a, b;
-            //Console.WriteLine("Enter 2 values:");
-            //a = int.Parse(Console.ReadLine());
-            //b = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Before Swapping: a = {0}, b = {1}", a, b);
-            //a = a + b;
-            //b = a - b;
-            //a = a - b;
-            //Console.WriteLine("After Swapping: a = {0}, b = {1}", a, b);
+            int a, b;
+            Console.WriteLine("Enter 2 values:");
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Before Swapping: a = {0}, b = {1}", a, b);
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            Console.WriteLine("After Swapping: a = {0}, b = {1}", a, b);
 
 
             //Program to get emp details and display them
